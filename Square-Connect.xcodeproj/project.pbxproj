@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57A2E8E81AE713F3005E5093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2E8E71AE713F3005E5093 /* main.m */; };
+		57A2E8EB1AE713F3005E5093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2E8EA1AE713F3005E5093 /* AppDelegate.m */; };
+		57A2E8EE1AE713F3005E5093 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2E8ED1AE713F3005E5093 /* ViewController.m */; };
+		57A2E8F11AE713F3005E5093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A2E8EF1AE713F3005E5093 /* Main.storyboard */; };
+		57A2E8F31AE713F3005E5093 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A2E8F21AE713F3005E5093 /* Images.xcassets */; };
+		57A2E8F61AE713F3005E5093 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57A2E8F41AE713F3005E5093 /* LaunchScreen.xib */; };
+		57A2E9021AE713F3005E5093 /* Square_ConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A2E9011AE713F3005E5093 /* Square_ConnectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57A2E8FC1AE713F3005E5093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57A2E8DA1AE713F3005E5093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57A2E8E11AE713F3005E5093;
+			remoteInfo = "Square-Connect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57A2E8E21AE713F3005E5093 /* Square-Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Square-Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A2E8E61AE713F3005E5093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A2E8E71AE713F3005E5093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57A2E8E91AE713F3005E5093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57A2E8EA1AE713F3005E5093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57A2E8EC1AE713F3005E5093 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57A2E8ED1AE713F3005E5093 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57A2E8F01AE713F3005E5093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57A2E8F21AE713F3005E5093 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57A2E8F51AE713F3005E5093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		57A2E8FB1AE713F3005E5093 /* Square-ConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Square-ConnectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A2E9001AE713F3005E5093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A2E9011AE713F3005E5093 /* Square_ConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Square_ConnectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57A2E8DF1AE713F3005E5093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A2E8F81AE713F3005E5093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57A2E8D91AE713F3005E5093 = {
+			isa = PBXGroup;
+			children = (
+				57A2E8E41AE713F3005E5093 /* Square-Connect */,
+				57A2E8FE1AE713F3005E5093 /* Square-ConnectTests */,
+				57A2E8E31AE713F3005E5093 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57A2E8E31AE713F3005E5093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57A2E8E21AE713F3005E5093 /* Square-Connect.app */,
+				57A2E8FB1AE713F3005E5093 /* Square-ConnectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57A2E8E41AE713F3005E5093 /* Square-Connect */ = {
+			isa = PBXGroup;
+			children = (
+				57A2E8E91AE713F3005E5093 /* AppDelegate.h */,
+				57A2E8EA1AE713F3005E5093 /* AppDelegate.m */,
+				57A2E8EC1AE713F3005E5093 /* ViewController.h */,
+				57A2E8ED1AE713F3005E5093 /* ViewController.m */,
+				57A2E8EF1AE713F3005E5093 /* Main.storyboard */,
+				57A2E8F21AE713F3005E5093 /* Images.xcassets */,
+				57A2E8F41AE713F3005E5093 /* LaunchScreen.xib */,
+				57A2E8E51AE713F3005E5093 /* Supporting Files */,
+			);
+			path = "Square-Connect";
+			sourceTree = "<group>";
+		};
+		57A2E8E51AE713F3005E5093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57A2E8E61AE713F3005E5093 /* Info.plist */,
+				57A2E8E71AE713F3005E5093 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57A2E8FE1AE713F3005E5093 /* Square-ConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				57A2E9011AE713F3005E5093 /* Square_ConnectTests.m */,
+				57A2E8FF1AE713F3005E5093 /* Supporting Files */,
+			);
+			path = "Square-ConnectTests";
+			sourceTree = "<group>";
+		};
+		57A2E8FF1AE713F3005E5093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57A2E9001AE713F3005E5093 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57A2E8E11AE713F3005E5093 /* Square-Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A2E9051AE713F3005E5093 /* Build configuration list for PBXNativeTarget "Square-Connect" */;
+			buildPhases = (
+				57A2E8DE1AE713F3005E5093 /* Sources */,
+				57A2E8DF1AE713F3005E5093 /* Frameworks */,
+				57A2E8E01AE713F3005E5093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Square-Connect";
+			productName = "Square-Connect";
+			productReference = 57A2E8E21AE713F3005E5093 /* Square-Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57A2E8FA1AE713F3005E5093 /* Square-ConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A2E9081AE713F3005E5093 /* Build configuration list for PBXNativeTarget "Square-ConnectTests" */;
+			buildPhases = (
+				57A2E8F71AE713F3005E5093 /* Sources */,
+				57A2E8F81AE713F3005E5093 /* Frameworks */,
+				57A2E8F91AE713F3005E5093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57A2E8FD1AE713F3005E5093 /* PBXTargetDependency */,
+			);
+			name = "Square-ConnectTests";
+			productName = "Square-ConnectTests";
+			productReference = 57A2E8FB1AE713F3005E5093 /* Square-ConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57A2E8DA1AE713F3005E5093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Gregg Mojica";
+				TargetAttributes = {
+					57A2E8E11AE713F3005E5093 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					57A2E8FA1AE713F3005E5093 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 57A2E8E11AE713F3005E5093;
+					};
+				};
+			};
+			buildConfigurationList = 57A2E8DD1AE713F3005E5093 /* Build configuration list for PBXProject "Square-Connect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57A2E8D91AE713F3005E5093;
+			productRefGroup = 57A2E8E31AE713F3005E5093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57A2E8E11AE713F3005E5093 /* Square-Connect */,
+				57A2E8FA1AE713F3005E5093 /* Square-ConnectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57A2E8E01AE713F3005E5093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A2E8F11AE713F3005E5093 /* Main.storyboard in Resources */,
+				57A2E8F61AE713F3005E5093 /* LaunchScreen.xib in Resources */,
+				57A2E8F31AE713F3005E5093 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A2E8F91AE713F3005E5093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57A2E8DE1AE713F3005E5093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A2E8EE1AE713F3005E5093 /* ViewController.m in Sources */,
+				57A2E8EB1AE713F3005E5093 /* AppDelegate.m in Sources */,
+				57A2E8E81AE713F3005E5093 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A2E8F71AE713F3005E5093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A2E9021AE713F3005E5093 /* Square_ConnectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57A2E8FD1AE713F3005E5093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57A2E8E11AE713F3005E5093 /* Square-Connect */;
+			targetProxy = 57A2E8FC1AE713F3005E5093 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57A2E8EF1AE713F3005E5093 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A2E8F01AE713F3005E5093 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57A2E8F41AE713F3005E5093 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A2E8F51AE713F3005E5093 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57A2E9031AE713F3005E5093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57A2E9041AE713F3005E5093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57A2E9061AE713F3005E5093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Square-Connect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57A2E9071AE713F3005E5093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Square-Connect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57A2E9091AE713F3005E5093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Square-ConnectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Square-Connect.app/Square-Connect";
+			};
+			name = Debug;
+		};
+		57A2E90A1AE713F3005E5093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Square-ConnectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Square-Connect.app/Square-Connect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57A2E8DD1AE713F3005E5093 /* Build configuration list for PBXProject "Square-Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A2E9031AE713F3005E5093 /* Debug */,
+				57A2E9041AE713F3005E5093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57A2E9051AE713F3005E5093 /* Build configuration list for PBXNativeTarget "Square-Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A2E9061AE713F3005E5093 /* Debug */,
+				57A2E9071AE713F3005E5093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57A2E9081AE713F3005E5093 /* Build configuration list for PBXNativeTarget "Square-ConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A2E9091AE713F3005E5093 /* Debug */,
+				57A2E90A1AE713F3005E5093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57A2E8DA1AE713F3005E5093 /* Project object */;
+}
